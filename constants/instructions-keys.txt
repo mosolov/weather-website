@@ -1,0 +1,11 @@
+Inside folder 'constants', create a file 'keys.js' with the following:
+
+const forecastKey = '<YOUR WEATHERSTACK API KEY>';
+const geoKey = '<YOUR MAPBOX API KEY>'
+
+const keys = {
+    forecastKey: forecastKey,
+    geoKey: geoKey
+}
+
+module.exports = keys

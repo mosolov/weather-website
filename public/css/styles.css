@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 650px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.main-content {
+    flex-grow: 1;
+}
+h1 {
+    color: black;
+    font-size: 3em;
+}
+
+header a{
+    color: gray;
+    text-decoration: none;
+    margin-right: 16px;
+    
+}
+
+footer {
+   color:gray;
+   border-top: 1px solid gray
+    
+}
